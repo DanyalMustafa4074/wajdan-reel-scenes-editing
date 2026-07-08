@@ -4,6 +4,15 @@ Second reel in the series. B2B lead-gen story for **Wajdan Services** (Meta paid
 CRM + automated backend). A struggling solo owner ("You") who grinds vs. **Michael**, who built a
 system. Same locked doodle art style as Reel #07, re-skinned to Wajdan orange `#E07B00`.
 
+## Status
+- ✅ Script / voiceover text
+- ✅ Character sheets (4/4): Owner · Michael · Team · SYS
+- ✅ Scene art (21/21): `Scenes/Scene 01–21.png`
+- ✅ Scene prompts + editor build sheet
+- ⬜ Voiceover audio (record from `Reel-08_VOICEOVER.txt`)
+- ⬜ Final video assembly (per `Reel-08_EDIT-SHEET.md`)
+- ⬜ Logo files into `Brand/` (`wajdan-logo-dark.png`, `wajdan-logo-light.png`)
+
 ## Build order
 1. **`Reel-08_VOICEOVER.txt`** — the narration (spine + pause cues). Record a calm AI voice, ~90–95s.
 2. **`Reel-08_CHARACTERS.md`** — generate the 4 character reference sheets → `Characters/`.
