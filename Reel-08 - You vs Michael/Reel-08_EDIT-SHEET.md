@@ -20,8 +20,11 @@ silent-autoplay friendly (captions burned in). Same proven frame as Reel #07, re
 
 ### Caption + brand zones
 - **Caption:** top band, centered, ~y=300–540. Max 2 lines.
-- **Logo:** small **Wajdan** monogram ("W"), top-left corner, persistent.
-- **Handle:** `wajdanservices` small, bottom-center, persistent. *(confirm the real handle)*
+- **Logo:** the **WAJDAN wordmark**, top-left corner, persistent, small. On the cream frame use the
+  **dark lockup** (`Brand/wajdan-logo-dark.png` — black wordmark + orange star). On dark/night scenes
+  (Scene 09, 14) use the **light lockup** (`Brand/wajdan-logo-light.png`). Where space is tight, the
+  standalone **orange 4-point star** works as a compact mark.
+- **Handle:** **`@wajdan.co`** small, bottom-center, persistent.
 
 ### Caption style (Wajdan brand, legible on cream)
 - Font: heavy rounded sans (Poppins ExtraBold / Montserrat Black).
@@ -76,10 +79,12 @@ Let it hit cold and a little uncomfortable — it's the hook.
 
 **C) CTA card (Scene 21 → orange brand card):**
 - Hold Scene 21 doodle ~2s, then cut to a **full orange `#E07B00` card, cream/white accents**:
-  - Wajdan "W" logo top-left.
+  - **WAJDAN light lockup** (`Brand/wajdan-logo-light.png`) top-left — use the white wordmark; render
+    the star in **white/cream** here so it doesn't disappear against the orange (or use the black
+    wordmark version — either reads; do NOT put the orange star on orange).
   - Cream pulsing button/bubble: **BOOK YOUR FREE STRATEGY CALL**
   - Sub: *We turn your ad spend into booked calls — not wasted months.*
-  - *Link in bio. →*  (Meta paid ads → CRM → automated follow-up → booked calls.)
+  - *Link in bio → @wajdan.co*  (Meta paid ads → CRM → automated follow-up → booked calls.)
   - Small mock "link in bio" chip at the very bottom.
 
 ---

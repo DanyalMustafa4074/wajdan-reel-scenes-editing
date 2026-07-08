@@ -131,8 +131,11 @@ system. Orange `#E07B00` is the "system / good / Wajdan" accent; grey is the "le
 
 ---
 
-## NOTES / CONFIRM WITH CLIENT
-- **Handle & logo:** placeholder handle used in the edit sheet is `wajdanservices` — swap for the real
-  one. Drop the real Wajdan logo (a "W" monogram works) top-left.
+## BRAND ASSETS (confirmed)
+- **Handle:** `@wajdan.co` (Instagram) — used bottom-center persistent + on the CTA card.
+- **Logo:** the **WAJDAN wordmark** (Arabic *nūn* flourish cradling the orange 4-point star). Files in
+  `Brand/`: `wajdan-logo-dark.png` (black + orange star, for light/cream) and `wajdan-logo-light.png`
+  (white, for dark backgrounds / the orange CTA card). The orange star = the same `#E07B00` accent used
+  throughout the reel, so it ties the doodle "system glow" to the brand.
 - **Michael's name on screen:** kept as "Michael" per the script. If you'd rather localize it, change
   it in one place (SC-10 caption) and it carries.

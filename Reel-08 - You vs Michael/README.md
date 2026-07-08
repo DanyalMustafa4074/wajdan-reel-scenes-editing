@@ -19,7 +19,7 @@ system. Same locked doodle art style as Reel #07, re-skinned to Wajdan orange `#
 ## Brand
 - Color: orange **`#E07B00`** (system / good / Wajdan) · charcoal `#23262B` base text · cream plate.
 - Tone: direct, action-oriented, results-focused.
-- Confirm before publishing: real Wajdan **logo** + social **handle** (placeholder: `wajdanservices`).
+- Logo: **WAJDAN wordmark** (dark + light lockups in `Brand/`). Handle: **`@wajdan.co`**.
 
 ## Structure (mirrors Reel #07's proven two-paths arc)
 HOOK → YOU / THE GRIND → TEASE ("the way out") → MICHAEL / THE SYSTEM → THE TRUTH (system vs. to-do
