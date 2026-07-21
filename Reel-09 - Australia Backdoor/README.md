@@ -41,9 +41,14 @@ the reused sheet passed as an image reference. Style-approval gate: one test ima
 - [x] Scene prompts
 - [x] Edit sheet
 - [x] README
-- [ ] Test image approved
-- [ ] All 12 scenes generated + saved
-- [ ] Committed + pushed to `claude/reel-09-australia-backdoor`
+- [x] Test image approved (SC-01)
+- [x] All 12 scenes generated + saved to `Scenes/`
+- [x] Committed + pushed to `claude/reel-09-australia-backdoor`
+
+Art complete: SC-01…SC-12 (16:9 PNGs). Object scenes = recraft-v4-1; character/kiwi scenes =
+imagen-nano-banana-2 with Student 1 / Good Consultant / Kiwi references. Character + mascot
+consistency holds across scenes (and matches Reel-06's cast). Next: assemble both cuts
+(reel end SC-11, ad end SC-12) per the edit sheet.
 
 ## Open questions
 1. CTA keyword: "NZ" (used) or "NZtoAUS" (header)?
