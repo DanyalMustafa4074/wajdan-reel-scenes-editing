@@ -1,25 +1,51 @@
-# StudyPrime — Reel #06 "UK Khatam, NZ Zinda"
+# Reel #06 — "UK Khatam, NZ Zinda" (New Zealand angle)
 
-Info/reveal reel: UK/Canada/Australia are tightening → **New Zealand** is the smart, lesser-known
-option. Roman-Urdu VO, StudyPrime brand (navy `#162447` + gold `#C9A24B`, kraft frame). Built with the
-reusable playbook in `/REEL-PIPELINE-PLAYBOOK.md`.
+StudyPrime organic reel + paid-ad variant. Roman-Urdu, host-narrated, hand-drawn doodle-on-kraft
+style (same brand system as Reel-07).
 
-## Two endings (this is the key ask)
-- **Ending 1 — REEL (organic):** "Comment **NZ** — I'll guide you in your DM." → `Scene 16A`
-- **Ending 2 — AD (paid):** "Click below, **book a free call** with a consultant." → `Scene 16B`
-Everything before Scene 16 is shared; export two cuts (`Reel-06_REEL.mp4`, `Reel-06_AD.mp4`).
+- **Angle:** UK/Canada/Australia are tightening → New Zealand is the overlooked best option.
+- **Target audience:** students disappointed with UK / Canada / Australia tightening.
+- **CTA keyword:** "NZ" (script header also says "NZopen" — CONFIRM which; see notes below).
+- **Length:** ~50–60s, vertical 9:16.
 
-## Build order
-1. `Reel-06_VOICEOVER.txt` — narration + two endings + delivery cues (~80–90s).
-2. `Reel-06_CHARACTERS.md` — **reuse** StudyPrime cast in `/Character/` + a NZ visual/icon kit (no new sheets).
-3. `Reel-06_SCENE-PROMPTS.md` — 15 scenes + 16A/16B endings → generate into `Scenes/`.
-4. `Reel-06_EDIT-SHEET.md` — timeline, captions, both CTA cards, export.
+## Package (5 parts)
+| File | What |
+|------|------|
+| `Reel-06_VOICEOVER.txt` | Voiceover-only script + delivery cues (record via ElevenLabs). |
+| `Reel-06_CHARACTERS.md` | Character list — all reused from `/Character/`, no new sheets. |
+| `Reel-06_SCENE-PROMPTS.md` | 19 copy-paste prompts, per-scene model + reference assignments. |
+| `Reel-06_EDIT-SHEET.md` | Frame, timeline, captions, two endings, pacing, export. |
+| `README.md` | This file. |
 
-## Structure
-Problem (job crisis + brain drain) → doors closing (Canada/UK/Australia) → the turn ("don't worry" +
-save this) → **New Zealand reveal** → proof (3-yr PSW, dependents, Green List, PR in 2 yrs, budget) →
-punchline (smart students already applying) → CTA (reel or ad).
+## Folders
+- `Characters/` — reference character sheets used for this reel (copied from `/Character/`).
+- `Scenes/` — generated scene art `SC-01.png … SC-19.png`.
 
-## To confirm
-- **CTA keyword:** brief says `NZopen`, Ending 1 says comment `NZ` — pick one, keep it consistent.
-- On-screen captions: currently short English keywords; localize to Roman-Urdu if preferred.
+## Characters
+- Student 2 (light-blue shirt, glasses) — SC-04, SC-11, SC-17 — REUSE
+- Good Consultant (beige cardigan) — SC-19 (ad ending) — REUSE
+- **Kiwi guide** — NEW recurring NZ mascot, generated as `Characters/Kiwi.png` — SC-09, SC-10, SC-12, SC-13, SC-17, SC-18
+- (Student 1 dropped after SC-01 redesign; Parents / Bad Consultant available but not used.)
+
+## Generation method (Freepik connector)
+1. **Character sheets first:** upload `/Character/` sheets → get creation identifiers.
+2. **Character scenes:** `imagen-nano-banana-2` (Nano Banana Pro) + the character sheet passed as
+   an image reference (faces stay consistent).
+3. **Object scenes:** `recraft-v4-1` (or `imagen4`), no ref; style anchor only if it drifts.
+4. **Style-approval gate:** ONE test image approved first, then the rest.
+5. Download each result → save to `Scenes/SC-NN.png` → commit + push.
+
+## Status
+- [x] Voiceover
+- [x] Characters
+- [x] Scene prompts
+- [x] Edit sheet
+- [x] README
+- [ ] Test image approved
+- [ ] All scenes generated + saved
+- [ ] Committed + pushed to `claude/second-reel-script-assets-8rulhj`
+
+## Open questions for the client
+1. **CTA keyword:** "NZ" (used here) or "NZopen" (script header)?
+2. **Parents cutaway** near SC-04 — include or skip? (currently skipped)
+3. **Reusable Partner/Spouse character** for SC-11 — one-off doodle (current) or mint a new sheet?
