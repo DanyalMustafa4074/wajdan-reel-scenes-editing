@@ -17,9 +17,21 @@ in the reference style (funnel / burning-box / inbox-graveyard / whiteboard). No
 **Models:** CHARACTER scenes → `imagen-nano-banana-2` (Nano Banana Pro) + character sheet ref
 (heavier cartoon-ink look, like the two-guys-on-phone reference). OBJECT/concept scenes →
 `recraft-v4-1` (light explainer look, like the funnel / burning-box / inbox references).
+KIWI scenes (the NZ half that features the mascot) → `imagen-nano-banana-2` + the KIWI mascot
+creation passed as an image reference, so the kiwi stays identical across scenes.
 
 CHARACTER FILES: `Student 2.png` (light-blue shirt, glasses) · `Good COnsultant.png` (beige cardigan).
 (Student 1 no longer needed — see SC-01 redesign.)
+
+### KIWI MASCOT (recurring NZ guide) — generate FIRST, then reference in every kiwi scene
+> **Kiwi spec (keep identical everywhere):** a small, cheerful hand-drawn brown KIWI BIRD — round
+> plump body, soft brown colored-pencil shading, a long slender beak, big friendly eyes, tiny legs,
+> and a small GREEN accent (a little green scarf or a fern tucked at its side) to tie to the NZ green.
+> Same warm doodle style as the scenes. Expressive and welcoming (waves, thumbs-up, holds little signs).
+>
+> **Pipeline:** generate ONE clean kiwi mascot sheet (plain cream background, a couple of poses:
+> waving + thumbs-up) as the first NZ asset → save as `Characters/Kiwi.png` → then pass that creation
+> as an `image` reference on SC-09, SC-10, SC-12, SC-13, SC-17, SC-18 so the mascot is consistent.
 
 ---
 
@@ -90,18 +102,19 @@ CHARACTER FILES: `Student 2.png` (light-blue shirt, glasses) · `Good COnsultant
 
 ## NEW ZEALAND REVEAL — 0:28–0:33
 
-**SC-09 — The one open door** · OBJECT · recraft-v4-1   ⟵ CURRENT TEST SCENE
+**SC-09 — The one open door** · KIWI · imagen-nano-banana-2 · Attach: Kiwi mascot   ⟵ concept approved (regen with kiwi ref so the mascot is consistent; same composition)
 > [STYLE BLOCK]. Concept: in the FOREGROUND, one bright warmly-lit OPEN DOOR / welcome archway
-> labeled "NEW ZEALAND", with a welcome mat, a cheerful little kiwi bird waving, a silver fern, and
+> labeled "NEW ZEALAND", with a welcome mat, the cheerful KIWI mascot waving beside it, a silver fern, and
 > sparkles / warm glow around it. In the BACKGROUND, dimmed and greyed, stand the earlier CLOSED,
 > crowded doors (small flags for UK / Canada / Australia) with little figures stuck outside them.
 > Strong contrast: everyone is stuck at the grey closed doors while this one green door glows open.
 > Metaphor: the reveal — the way in that no one is using.
 
-**SC-10 — Family walks in together** · OBJECT · recraft-v4-1
+**SC-10 — Family walks in together** · KIWI · imagen-nano-banana-2 · Attach: Kiwi mascot
 > [STYLE BLOCK]. Concept: a large doodle passport / visa stamped "3 YEARS · WORK", and beside it a
 > happy little FAMILY (a couple plus a child, holding hands) walking together through an OPEN green
-> gate under a banner "DEPENDENTS WELCOME ✓". Deliberately mirrors and answers UK's "NO DEPENDENTS".
+> gate under a banner "DEPENDENTS WELCOME ✓", with the KIWI mascot warmly welcoming them in at the
+> gate. Deliberately mirrors and answers UK's "NO DEPENDENTS".
 
 **SC-11 — Partner works, no limit** · CHARACTER · imagen-nano-banana-2 · Attach: Student 2
 > [STYLE BLOCK]. Keep STUDENT 2 exactly consistent with the attached reference. Concept: STUDENT 2
@@ -113,16 +126,17 @@ CHARACTER FILES: `Student 2.png` (light-blue shirt, glasses) · `Good COnsultant
 
 ## GREEN LIST → PR — 0:33–0:44
 
-**SC-12 — The golden Green List** · OBJECT · recraft-v4-1
-> [STYLE BLOCK]. Concept: a shiny GREEN + GOLD "GREEN LIST" ticket / VIP guest-list card held up and
-> glowing, with three ticked occupation lines and a small silver fern in the corner; optional friendly
-> kiwi bird checking it like a doorman. Metaphor: "you're on the list" — a golden ticket in.
+**SC-12 — The golden Green List** · KIWI · imagen-nano-banana-2 · Attach: Kiwi mascot
+> [STYLE BLOCK]. Concept: the KIWI mascot dressed as a friendly doorman / host holds up a shiny
+> GREEN + GOLD "GREEN LIST" ticket / VIP guest-list card that glows, with three ticked occupation
+> lines and a small silver fern in the corner. Metaphor: "you're on the list" — a golden ticket in.
 
-**SC-13 — Tier 1 fast-track to PR** · OBJECT · recraft-v4-1
+**SC-13 — Tier 1 fast-track to PR** · KIWI · imagen-nano-banana-2 · Attach: Kiwi mascot
 > [STYLE BLOCK]. Concept: a bright GREEN FAST-TRACK lane / express conveyor labeled "TIER 1". Three
 > icons ride it left-to-right — a laptop (IT), a medical cross (healthcare), a gear/hard-hat
 > (engineering) — straight to a "PR" passport being stamped at the end, with a bold "JOB → PR" and a
-> "FAST" arrow. A dull grey slow lane sits beside it for contrast. Metaphor: instant PR fast lane.
+> "FAST" arrow; the KIWI mascot cheers with a thumbs-up at the PR stamp. A dull grey slow lane sits
+> beside it for contrast. Metaphor: instant PR fast lane.
 
 **SC-14 — Tier 2: two years to PR** · OBJECT · recraft-v4-1
 > [STYLE BLOCK]. Concept: a short path labeled "TIER 2": a little worker figure walks past a single
@@ -144,21 +158,23 @@ CHARACTER FILES: `Student 2.png` (light-blue shirt, glasses) · `Good COnsultant
 
 ## SOCIAL PROOF — 0:44–0:49
 
-**SC-17 — The herd vs the smart few** · CHARACTER · imagen-nano-banana-2 · Attach: Student 2
+**SC-17 — The herd vs the smart few** · CHARACTER + KIWI · imagen-nano-banana-2 · Attach: Student 2 + Kiwi mascot
 > [STYLE BLOCK]. Keep STUDENT 2 exactly consistent with the attached reference. Concept: on the LEFT,
 > a big chaotic grey HERD of generic figures stampedes and shoves toward crowded closed gates labeled
 > "UK" and "AUSTRALIA". On the RIGHT, STUDENT 2 (and one or two other clever students with little
-> LIGHTBULBS glowing over their heads) calmly walks through an open GREEN gate labeled "NEW ZEALAND".
-> A tag reads "SMART MONEY → NZ". Metaphor: follow the smart few, not the herd.
+> LIGHTBULBS glowing over their heads) calmly walks through an open GREEN gate labeled "NEW ZEALAND"
+> where the KIWI mascot waves them in. A tag reads "SMART MONEY → NZ". Metaphor: follow the smart few,
+> not the herd.
 
 ---
 
 ## CALL TO ACTION — 0:49–0:55
 
-**SC-18 — Comment "NZ" (organic reel ending)** · OBJECT · recraft-v4-1 · navy/gold card built in editor
+**SC-18 — Comment "NZ" (organic reel ending)** · KIWI · imagen-nano-banana-2 · Attach: Kiwi mascot · navy/gold card built in editor
 > [STYLE BLOCK]. Concept: a big friendly smartphone showing a comment box with the word "NZ" typed in
 > and a glowing send button, a hand about to tap it; a warm DM chat bubble reading "Let's talk!" pops
-> beside it. Inviting and personal.
+> beside it, and the KIWI mascot stands beside the phone holding a little sign reading "NZ". Inviting
+> and personal.
 > (Editor: hold ~2s then cut to a full navy #162447 card with gold accents — COMMENT "NZ".)
 
 **SC-19 — Book a free call (paid ad ending)** · CHARACTER · imagen-nano-banana-2 · Attach: Good Consultant
@@ -169,7 +185,8 @@ CHARACTER FILES: `Student 2.png` (light-blue shirt, glasses) · `Good COnsultant
 
 ---
 
-### Note on a recurring mascot (optional, recommend)
-The reference reels use a recurring mascot (the little robot). For this reel the **kiwi bird** can be
-the recurring NZ guide — appearing in SC-09, SC-12, and the CTA — to tie the NZ section together and
-boost memorability. Say the word and I'll thread the kiwi through those scenes consistently.
+### Recurring mascot — THREADED ✓
+The **kiwi guide** is now the recurring NZ mascot (like the robot in the reference reels), appearing
+in **SC-09, SC-10, SC-12, SC-13, SC-17, SC-18**. It is generated once as `Characters/Kiwi.png` and
+passed as an image reference on each of those scenes (Nano Banana Pro) so it stays identical. This
+ties the whole NZ half together and boosts memorability.

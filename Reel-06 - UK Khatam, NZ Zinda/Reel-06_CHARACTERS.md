@@ -17,6 +17,14 @@ references on every character scene (model: `imagen-nano-banana-2` / Nano Banana
 - **Parents** (`Parents.png`) — optional. Script doesn't feature parents. Add only if you want a
   "better life for family" cutaway (would slot near SC-04).
 
+## NEW mascot (generated for this reel)
+| Character | File | Look | Used in scenes |
+|-----------|------|------|----------------|
+| **Kiwi guide** | `Characters/Kiwi.png` (to generate) | plump brown kiwi, long beak, big friendly eyes, small green scarf/fern accent | SC-09, SC-10, SC-12, SC-13, SC-17, SC-18 |
+
+Generated once as the first NZ asset, then passed as an image reference on each kiwi scene so the
+mascot stays identical. Recurring NZ guide — same role the robot plays in the reference reels.
+
 ## One-off (NOT a library character)
 - **PhD partner** (SC-11): a generic doodle spouse figure holding a briefcase. Appears once, so it
   does NOT need a consistency sheet. If you want a reusable "Partner/Spouse" character for future

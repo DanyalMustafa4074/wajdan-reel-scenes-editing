@@ -21,11 +21,11 @@ style (same brand system as Reel-07).
 - `Characters/` — reference character sheets used for this reel (copied from `/Character/`).
 - `Scenes/` — generated scene art `SC-01.png … SC-19.png`.
 
-## Characters (all REUSE — no new sheets)
-- Student 1 (grey-green tee) — SC-01
-- Student 2 (light-blue shirt, glasses) — SC-04, SC-11, SC-17
-- Good Consultant (beige cardigan) — SC-19 (ad ending)
-- (Parents / Bad Consultant available but not used.)
+## Characters
+- Student 2 (light-blue shirt, glasses) — SC-04, SC-11, SC-17 — REUSE
+- Good Consultant (beige cardigan) — SC-19 (ad ending) — REUSE
+- **Kiwi guide** — NEW recurring NZ mascot, generated as `Characters/Kiwi.png` — SC-09, SC-10, SC-12, SC-13, SC-17, SC-18
+- (Student 1 dropped after SC-01 redesign; Parents / Bad Consultant available but not used.)
 
 ## Generation method (Freepik connector)
 1. **Character sheets first:** upload `/Character/` sheets → get creation identifiers.
