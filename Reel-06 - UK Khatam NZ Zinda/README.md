@@ -41,9 +41,14 @@ style (same brand system as Reel-07).
 - [x] Scene prompts
 - [x] Edit sheet
 - [x] README
-- [ ] Test image approved
-- [ ] All scenes generated + saved
-- [ ] Committed + pushed to `claude/second-reel-script-assets-8rulhj`
+- [x] Test image approved (SC-09)
+- [x] Kiwi mascot generated + approved
+- [x] All 19 scenes generated + saved to `Scenes/`
+- [x] Committed + pushed to `claude/second-reel-script-assets-8rulhj`
+
+Art complete: SC-01…SC-19 (16:9 PNGs). Object scenes = recraft-v4-1; character/kiwi scenes =
+imagen-nano-banana-2 with Student 2 / Good Consultant / Kiwi references for consistency.
+Next: assemble both cuts (reel end SC-18, ad end SC-19) per the edit sheet.
 
 ## Open questions for the client
 1. **CTA keyword:** "NZ" (used here) or "NZopen" (script header)?
