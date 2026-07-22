@@ -47,8 +47,9 @@ CHARACTER FILES: `Student 2.png` (light-blue shirt, glasses) · `Good COnsultant
 **SC-02 — The overstuffed jobs jar** · OBJECT · recraft-v4-1
 > [STYLE BLOCK]. Concept: a giant glass jar / tin labeled "JOBS" crammed with far too many tiny
 > identical job-seeker figures squished together, more piling on top trying to climb in. To the side
-> a salary tag reading "₨ PAY" being squeezed smaller with a big red downward arrow. Metaphor:
-> saturated market, shrinking pay.
+> a salary tag reading "Rs PAY" being squeezed smaller with a big red downward arrow (write money as
+> the plain letters "Rs" for Pakistani Rupees — NOT the Indian ₹ symbol). Metaphor: saturated market,
+> shrinking pay.
 
 ---
 
