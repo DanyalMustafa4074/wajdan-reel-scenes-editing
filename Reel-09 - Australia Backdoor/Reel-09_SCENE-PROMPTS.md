@@ -25,7 +25,8 @@ CHARACTER FILES: `Characters/Student 1.png` · `Characters/Good Consultant.png` 
 > [STYLE BLOCK]. Keep STUDENT 1 exactly consistent with the attached reference (grey-green t-shirt,
 > same face). Concept: STUDENT 1 stands looking up longingly at a big CLOSED grey gate labeled
 > "AUSTRALIA" (a small Sydney Opera House and a little kangaroo doodle behind it). Three red barrier
-> stamps block the gate: "FEES TOO HIGH ₨", "LOW %", "VISA REJECTED". His shoulders are dropped,
+> stamps block the gate: "FEES TOO HIGH Rs", "LOW %", "VISA REJECTED" (write money as the plain
+> letters "Rs" for Pakistani Rupees — NOT the Indian ₹ symbol). His shoulders are dropped,
 > disappointed. Keep him in the lower two-thirds, caption space at top, side margins.
 
 **SC-02 — The secret route (95% don't know)** · OBJECT · recraft-v4-1
