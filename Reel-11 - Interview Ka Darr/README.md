@@ -42,9 +42,14 @@ Style-approval gate: one test image first, then the rest.
 - [x] Edit sheet
 - [x] Google AI Studio VO
 - [x] README
-- [ ] Test image approved
-- [ ] All 13 scenes generated + saved
-- [ ] Committed + pushed to `claude/reel-11-interview-darr`
+- [x] Test image approved (SC-02)
+- [x] All 13 scenes generated + saved to `Scenes/`
+- [x] Committed + pushed to `claude/reel-11-interview-darr`
+
+Art complete: SC-01…SC-13 (16:9 PNGs). Object scenes (SC-01,05,07,08,09,11) = recraft-v4-1;
+character/kiwi scenes = imagen-nano-banana-2 with Student 2 / Good Consultant / Kiwi references.
+SC-10 was regenerated to remove an expression-sheet artifact. Two endings: reel = SC-11→SC-12,
+ad = SC-13 (shared body SC-01→SC-10).
 
 ## Open questions
 1. CTA keyword: "INFO" (used) — keep?
