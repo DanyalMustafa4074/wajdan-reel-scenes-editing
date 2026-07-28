@@ -41,9 +41,14 @@ sheet(s) as image references. Style-approval gate: one test image first, then th
 - [x] Edit sheet
 - [x] Google AI Studio VO
 - [x] README
-- [ ] Test image approved
-- [ ] All 14 scenes generated + saved
-- [ ] Committed + pushed to `claude/reel-13-danyal-vs-you`
+- [x] Test image approved (SC-01)
+- [x] All 14 scenes generated + saved to `Scenes/`
+- [x] Committed + pushed to `claude/reel-13-danyal-vs-you`
+
+Art complete: SC-01…SC-14 (16:9 PNGs). Object scene (SC-12) = recraft-v4-1; character/kiwi scenes =
+imagen-nano-banana-2 with Student 1 (Danyal) / Student 2 (You) / Good Consultant / Kiwi references.
+SC-03/05/10/13 were regenerated to remove stray prompt-text artifacts. Two endings: reel =
+SC-12→SC-13, ad = SC-14 (shared body SC-01→SC-11).
 
 ## Open questions
 1. CTA keyword: "PLAN" (used) — keep?
