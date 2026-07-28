@@ -40,9 +40,14 @@ as image references. Style-approval gate: one test image first, then the rest.
 - [x] Scene prompts
 - [x] Edit sheet
 - [x] README
-- [ ] Test image approved
-- [ ] All 10 scenes generated + saved
-- [ ] Committed + pushed to `claude/reel-12-parents`
+- [x] Test image approved (SC-01)
+- [x] Parents redesigned — middle-aged (~50), Abbu in shalwar kameez + waistcoat, Ammi in eastern kurta + dupatta (`Characters/Parents.png` updated)
+- [x] All 10 scenes generated + saved to `Scenes/`
+- [x] Committed + pushed to `claude/reel-12-parents`
+
+Art complete: SC-01…SC-10 (16:9 PNGs). Object scene (SC-04) = recraft-v4-1; character/kiwi scenes =
+imagen-nano-banana-2 with Student 1 / Parents / Good Consultant / Kiwi references. Next: assemble
+both cuts (reel end SC-09, ad end SC-10) per the edit sheet.
 
 ## Open questions
 1. CTA keyword: "PARENTS" (used) — keep, or change?
