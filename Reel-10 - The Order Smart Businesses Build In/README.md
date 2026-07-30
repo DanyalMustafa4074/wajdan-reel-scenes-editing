@@ -41,9 +41,9 @@ words on art). Style-approval gate: one test image first, then the rest.
 - [x] Edit sheet
 - [x] Google AI Studio VO
 - [x] README
-- [ ] Test image approved
-- [ ] All 16 scenes generated + saved
-- [ ] Committed + pushed to `claude/reel-10-wajdan-order`
+- [x] Test image approved
+- [x] All 16 scenes generated + saved (contextual art direction; strict text discipline)
+- [x] Committed + pushed to `claude/reel-10-wajdan-order`
 
 ## Open questions
 1. CTA keyword: "GUIDE" (used) — keep?
