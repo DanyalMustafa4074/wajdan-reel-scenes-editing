@@ -42,9 +42,9 @@ reused sheet as an image reference (single figure, NOT an expression sheet). Str
 - [x] Edit sheet
 - [x] Google AI Studio VO
 - [x] README
-- [ ] Test image approved
-- [ ] All 13 scenes generated + saved
-- [ ] Committed + pushed to `claude/reel-14-placement-year`
+- [x] Test image approved (SC-01)
+- [x] All 13 scenes generated + saved (contextual art direction; strict text discipline; all text clean)
+- [x] Committed + pushed to `claude/reel-14-placement-year`
 
 ## Open questions
 1. CTA keyword: "PLACEMENT" (used) — keep?
