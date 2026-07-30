@@ -1,0 +1,76 @@
+Wajdan Services — Reel #11 "The Funnel Autopsy" — VOICEOVER ONLY (FINAL)
+(AI voice: calm, warm, plain-spoken, confident. Slow down on the bold beats. ~235 words ≈ 85s.)
+
+I can tell your consultancy is bleeding leads — without ever talking to you.
+
+I don't need your numbers. I don't need a call.
+
+Three questions, and I'll know exactly where it's leaking.
+
+One — when someone messages you, how long before they hear back?
+
+If the answer is "whenever I see it" — that's leak number one. The lead already messaged three other
+consultancies while they waited.
+
+Two — if someone wants to book a call with you right now, is there one link that does it? Or does it
+depend on you being free to reply?
+
+If it depends on you — that's leak number two. You're the bottleneck, even when you don't mean to be.
+
+Three — when someone shows interest and then goes quiet, does anything follow up with them automatically?
+
+If nothing's set up for that — that's leak number three. Not because you forgot. Because nothing was
+ever built to catch it.
+
+Here's the truth: none of these are marketing problems.
+
+You don't need more leads. You need to stop losing the ones you already have.
+
+Smart consultancies fix all three before they spend a single dollar on ads.
+
+Fast replies — automatic. One clear place to book — automatic. Follow-up when someone goes quiet —
+automatic.
+
+Nothing waits on a human to remember.
+
+If even one of those three sounds like you, you're not short on leads. You're short on a system.
+
+--- CTA (VARIATION A / REEL):
+Comment "AUDIT" below, and I'll tell you exactly where yours is leaking.
+
+--- CTA (VARIATION B / AD):
+We've got 15 free strategy calls left this month. Book yours through the link below before they're gone.
+
+
+=== PAUSE / DELIVERY CUES ===
+- 0.5s pause after: "...ever talking to you." / "...exactly where it's leaking." / "...marketing
+  problems." / "...short on a system."
+- Three questions → deliver like you're genuinely diagnosing, not reciting a list. Slight pause before
+  each number ("One —", "Two —", "Three —"), then let the "if the answer is..." land conversationally.
+- "Not because you forgot. Because nothing was ever built to catch it." → slow down — the empathy beat,
+  take the blame off the founder.
+- "You don't need more leads. You need to stop losing the ones you already have." → the reframe. Slower,
+  lower, give it weight — this script's "It's not." moment.
+- "Nothing waits on a human to remember." → flat and final, small pause after.
+- CTA A → warm, genuinely helpful, not a hard sell. Land on "leaking."
+- CTA B → slight pace pickup, real urgency not desperation. Land hard on "before they're gone."
+- Pace ~150 wpm throughout (except CTA B, which lifts slightly).
+
+=== STRUCTURE MAP (for editor) ===
+HOOK ................ 0:00-0:08 (bleeding leads, no call needed)
+THREE QUESTIONS ..... 0:08-0:46 (response time -> booking friction -> follow-up)
+REFRAME ............. 0:46-0:56 (not a marketing problem)
+SYSTEM TEASE ........ 0:56-1:12 (fast replies, one booking link, auto follow-up — all automatic)
+MORAL ............... 1:12-1:18 ("short on a system")
+CTA (A or B) ........ 1:18-1:30
+
+=== ON-SCREEN LEAK CARDS ===
+LEAK #1 -> "Slow to reply"
+LEAK #2 -> "No single way to book"
+LEAK #3 -> "Goes quiet, nothing follows up"
+Numbers + 3-4 words max per leak, not full sentences on screen.
+
+=== NOTES ===
+- On-screen comment word is "AUDIT" (CTA A). Confirm before publishing.
+- CTA B's "15 free strategy calls" must reflect a REAL current count — swap the number if not accurate;
+  fake scarcity undercuts the whole piece.
