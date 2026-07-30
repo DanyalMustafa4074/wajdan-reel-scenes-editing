@@ -19,6 +19,15 @@ an expression sheet, NOT multiple copies, no mood labels".
 **Models:** OWNER/SYS → `imagen-nano-banana-2` + sheet. OBJECT → `recraft-v4-1`.
 FILES: `Characters/Owner.png` · `Characters/SYS-robot.png`.
 
+### 🎬 CONTEXT & WARDROBE (art direction)
+- **Character scenes get a real ENVIRONMENT/context** — an actual office, desk, window, shelf, plant,
+  props — not a figure floating on blank paper. Context adds story and stops it feeling like clip-art.
+- **Pure diagram scenes stay clean** (funnel, the 6-layer stack, calendars, tracking loop) — a
+  background would fight the labels. Keep those on the cream plate.
+- **Wardrobe:** dress professional/aspirational characters SHARP — formal shirt, blazer, or an
+  old-money knit sweater. Exception: **the Owner stays casual/tired (grey tee)** on purpose — that
+  scruffy "before" look is his locked identity; only his *setting* gets richer, not his clothes.
+
 ---
 
 ## HOOK — 0:00–0:10
