@@ -4,14 +4,13 @@
 <meta charset="utf-8">
 <style>
 @font-face{font-family:'Anton';src:url(__ANTON__) format('truetype');font-weight:400;}
-@font-face{font-family:'PoppinsX';src:url(__POPPINSX__) format('truetype');font-weight:800;}
-@font-face{font-family:'PoppinsB';src:url(__POPPINSB__) format('truetype');font-weight:700;}
+@font-face{font-family:'Baloo';src:url(__BALOO__) format('truetype');font-weight:800;}
 
 :root{
   --cream:#F4ECD8;
   --cream2:#EFE6CF;
   --navy:#162447;
-  --gold:#C9A24B;
+  --gold:#F4A417;      /* fresh marigold */
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 html,body{width:1080px;height:1350px;}
@@ -30,7 +29,7 @@ html,body{width:1080px;height:1350px;}
 
 /* subject */
 .subject{
-  position:absolute;bottom:-14px;right:-46px;height:1020px;z-index:3;
+  position:absolute;bottom:-8px;right:-66px;height:880px;z-index:6;
   filter:
     grayscale(1) contrast(1.07) brightness(1.02)
     drop-shadow(0 6px 0 var(--gold)) drop-shadow(0 -6px 0 var(--gold))
@@ -39,16 +38,16 @@ html,body{width:1080px;height:1350px;}
     drop-shadow(4px -4px 0 var(--gold)) drop-shadow(-4px -4px 0 var(--gold));
 }
 
-/* headline — few words, BIG hierarchy (WB style) */
-.headline{
-  position:absolute;top:96px;left:72px;z-index:5;
-  color:var(--navy);text-transform:uppercase;
+/* headline — HUGE, fills the whole frame top-to-bottom (WB style) */
+.hl{
+  position:absolute;font-family:'Baloo',sans-serif;color:var(--navy);
+  text-transform:uppercase;line-height:.88;letter-spacing:-2px;z-index:5;white-space:nowrap;
 }
-.headline span{display:block;line-height:.82;letter-spacing:1px;}
-.small{font-size:82px;}
-.giant{font-size:230px;}
-.big{font-size:170px;}
-.pop{color:var(--gold);}
+.pop{
+  color:var(--gold);
+  -webkit-text-stroke:6px var(--navy);paint-order:stroke fill;
+  text-shadow:0 8px 0 rgba(22,36,71,.16);
+}
 
 /* doodle underline under the gold word */
 .uline{position:absolute;z-index:4;}
@@ -74,18 +73,17 @@ html,body{width:1080px;height:1350px;}
 
   <div class="grain"></div>
 
-  <!-- headline: 5 words, 2 giant anchors -->
-  <div class="headline">
-    <span class="small">THE</span>
-    <span class="giant pop">MISTAKE</span>
-    <span class="small">EVERY STUDENT</span>
-    <span class="big">MAKES</span>
-  </div>
+  <!-- headline: HUGE, stacked down the full frame -->
+  <div class="hl"     style="left:64px;top:52px;font-size:108px">THE</div>
+  <div class="hl pop" style="left:56px;top:150px;font-size:240px">MISTAKE</div>
+  <div class="hl"     style="left:64px;top:452px;font-size:120px">EVERY</div>
+  <div class="hl"     style="left:64px;top:582px;font-size:150px">STUDENT</div>
+  <div class="hl"     style="left:64px;top:806px;font-size:196px">MAKES</div>
 
-  <!-- doodle underline under MAKES (clean open space) -->
-  <svg class="uline" style="left:140px;top:566px;width:470px;height:46px" viewBox="0 0 470 46" xmlns="http://www.w3.org/2000/svg">
-    <path d="M8 26 C130 10, 350 10, 462 22" stroke="#C9A24B" stroke-width="12" fill="none" stroke-linecap="round"/>
-    <path d="M20 40 C150 26, 360 26, 452 35" stroke="#C9A24B" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- doodle underline under MAKES -->
+  <svg class="uline" style="left:74px;top:990px;width:540px;height:46px" viewBox="0 0 540 46" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8 26 C150 10, 420 10, 552 22" stroke="#F4A417" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M22 40 C180 26, 430 26, 540 35" stroke="#F4A417" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.6"/>
   </svg>
 
   <!-- subject -->
