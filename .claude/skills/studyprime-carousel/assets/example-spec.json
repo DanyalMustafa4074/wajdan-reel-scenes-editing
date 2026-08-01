@@ -1,0 +1,24 @@
+{
+  "slug": "agent-is-lying-red-flags",
+  "kicker": "CONSULTANT RED FLAGS",
+  "total_slides": 5,
+  "hook_image": null,
+  "slides": [
+    {"n": 2, "head": ["WATCH FOR", "THESE"], "emoji": "🚩", "type": "stack",
+     "lines": [["l", "A good consultant **changes your life.** A bad one **takes your money.**"],
+               ["l", "6 red flags to catch **before you commit.**"]]},
+    {"n": 3, "head": ["FIRST 3", "RED FLAGS"], "type": "list",
+     "items": [["1", "Pushes the **same** country or university on everyone"],
+               ["2", "Promises a **\"100% guaranteed\"** visa"],
+               ["3", "Won't explain what you're **actually paying** for"]]},
+    {"n": 4, "head": ["NEXT 3", "RED FLAGS"], "type": "list",
+     "items": [["4", "Rushes you to **pay \"today only\"**"],
+               ["5", "**No track record**, no references"],
+               ["6", "Never asks about your **actual goal**"]]},
+    {"n": 5, "head": ["SAVE BEFORE", "YOU SIGN"], "type": "cta", "bio": true,
+     "rows": [["🔖", "Save before your next meeting"],
+              ["↗", "Share it — it protects someone"],
+              ["💬", "Want an **honest** second opinion?"]]}
+  ],
+  "linkedin": "A bad study-abroad consultant can cost you more than money — they can cost you years.\n\nNot every agent is honest. Watch for these 6 red flags before you commit:\n1) Pushes the same country/university on everyone\n2) Promises a \"100% guaranteed\" visa\n3) Won't explain what you're actually paying for\n4) Rushes you to pay \"today only\"\n5) No track record, no references\n6) Never asks about your actual goal\n\nA good consultant changes your life. A bad one takes your money.\n\n📌 Save this before your next meeting.\n♻️ Repost — it protects someone.\n💬 Want an honest second opinion? Book a free 1-1 consultation — link in comments.\n\n#studyabroad #studentvisa #education #internationalstudents #studyprime"
+}
