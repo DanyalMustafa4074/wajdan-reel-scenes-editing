@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:'Anton';src:url(__ANTON__) format('truetype');font-weight:400;}
+@font-face{font-family:'PoppinsX';src:url(__POPPINSX__) format('truetype');font-weight:800;}
+@font-face{font-family:'PoppinsB';src:url(__POPPINSB__) format('truetype');font-weight:700;}
+
+:root{
+  --cream:#F4ECD8;
+  --cream2:#EFE6CF;
+  --navy:#162447;
+  --gold:#C9A24B;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{width:1080px;height:1350px;}
+.slide{
+  position:relative;width:1080px;height:1350px;overflow:hidden;
+  background:radial-gradient(120% 90% at 45% 6%, #FBF5E6 0%, var(--cream) 48%, var(--cream2) 100%);
+  font-family:'Anton',sans-serif;
+}
+.grain{position:absolute;inset:0;opacity:.5;mix-blend-mode:multiply;
+  background-image:radial-gradient(rgba(22,36,71,.05) 1px,transparent 1px);
+  background-size:6px 6px;pointer-events:none;z-index:2;}
+
+/* giant tiled hook word watermark */
+.tile{position:absolute;inset:-8%;z-index:1;}
+.tile svg{width:100%;height:100%;}
+
+/* subject */
+.subject{
+  position:absolute;bottom:-14px;right:-46px;height:1020px;z-index:3;
+  filter:
+    grayscale(1) contrast(1.07) brightness(1.02)
+    drop-shadow(0 6px 0 var(--gold)) drop-shadow(0 -6px 0 var(--gold))
+    drop-shadow(6px 0 0 var(--gold)) drop-shadow(-6px 0 0 var(--gold))
+    drop-shadow(4px 4px 0 var(--gold)) drop-shadow(-4px 4px 0 var(--gold))
+    drop-shadow(4px -4px 0 var(--gold)) drop-shadow(-4px -4px 0 var(--gold));
+}
+
+/* headline — few words, BIG hierarchy (WB style) */
+.headline{
+  position:absolute;top:96px;left:72px;z-index:5;
+  color:var(--navy);text-transform:uppercase;
+}
+.headline span{display:block;line-height:.82;letter-spacing:1px;}
+.small{font-size:82px;}
+.giant{font-size:230px;}
+.big{font-size:170px;}
+.pop{color:var(--gold);}
+
+/* doodle underline under the gold word */
+.uline{position:absolute;z-index:4;}
+
+/* doodle exclamation marks (WB-style personality) */
+.bang{position:absolute;z-index:4;}
+</style>
+</head>
+<body>
+<div class="slide">
+  <!-- tiled watermark word -->
+  <div class="tile">
+    <svg viewBox="0 0 1080 1350" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="wm" width="560" height="300" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)">
+          <text x="0" y="150" font-family="Anton" font-size="150" fill="#162447" fill-opacity="0.055">WHY</text>
+          <text x="280" y="300" font-family="Anton" font-size="150" fill="#162447" fill-opacity="0.055">WHY</text>
+        </pattern>
+      </defs>
+      <rect width="1080" height="1350" fill="url(#wm)"/>
+    </svg>
+  </div>
+
+  <div class="grain"></div>
+
+  <!-- headline: 5 words, 2 giant anchors -->
+  <div class="headline">
+    <span class="small">THE</span>
+    <span class="giant pop">MISTAKE</span>
+    <span class="small">EVERY STUDENT</span>
+    <span class="big">MAKES</span>
+  </div>
+
+  <!-- doodle underline under MAKES (clean open space) -->
+  <svg class="uline" style="left:140px;top:566px;width:470px;height:46px" viewBox="0 0 470 46" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8 26 C130 10, 350 10, 462 22" stroke="#C9A24B" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M20 40 C150 26, 360 26, 452 35" stroke="#C9A24B" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+  </svg>
+
+  <!-- subject -->
+  <img class="subject" src="__CUTOUT__" alt="Ahsan">
+</div>
+</body>
+</html>
