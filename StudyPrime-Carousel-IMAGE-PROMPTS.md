@@ -4,8 +4,7 @@ Purpose: generate clean, professional Ahsan images with **built-in empty space f
 No text, no logo baked in. Vertical 4:5 (1080×1350). Same face every time.
 
 ## HOW TO GENERATE IN FREEPIK
-1. Attach **1–3 clear face references of Ahsan** (best: the clean front-facing portraits) so his
-   identity stays consistent. Use the character/reference feature if available.
+1. Use the saved **@ahsan** character for identity — no need to describe his appearance.
 2. Set **aspect ratio 4:5** (1080×1350), realistic model (Mystic / Flux realism).
 3. Generate 4 variations, pick the best. If the face drifts, raise reference strength.
 4. Composition rule baked into every prompt: **subject on the RIGHT, head in the upper-right,
@@ -17,12 +16,13 @@ hands, distorted face, blurry face, low quality, harsh shadows, cluttered/busy b
 multiple people, tattoos`
 
 ## THE FRAME (repeated in each prompt — "SP-FRAME")
-> Vertical 4:5 photo. Keep the same man identical to the reference — South Asian, early 30s,
-> neatly styled black hair, short well-groomed beard, black rectangular glasses. Framed waist-up,
-> positioned on the RIGHT side of the frame, looking straight into camera with a calm, confident,
-> approachable expression. Keep the entire LEFT two-thirds and the TOP of the frame as clean,
-> empty negative space for text added later. Photorealistic, sharp focus on the face, natural skin
-> texture, soft cinematic lighting, subtle depth of field. No text, no logos, no watermark.
+> Vertical 4:5 photo of **@ahsan**. Framed waist-up, positioned on the RIGHT side of the frame,
+> looking straight into camera with a calm, confident, approachable expression. Keep the entire
+> LEFT two-thirds and the TOP of the frame as clean, empty negative space for text added later.
+> Photorealistic, sharp focus on the face, natural skin texture, soft cinematic lighting, subtle
+> depth of field. No text, no logos, no watermark.
+
+(Use the saved **@ahsan** character in Freepik for identity — do not describe his appearance.)
 
 ---
 
