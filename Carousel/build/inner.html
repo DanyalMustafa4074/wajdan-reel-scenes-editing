@@ -1,0 +1,52 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:'Anton';src:url(__ANTON__) format('truetype');}
+@font-face{font-family:'SpaceG';src:url(__SPACE__) format('truetype');font-weight:700;}
+@font-face{font-family:'SpaceGm';src:url(__SPACEM__) format('truetype');font-weight:500;}
+@font-face{font-family:'Bricolage';src:url(__BRIC__) format('truetype');font-weight:700;}
+@font-face{font-family:'Bricolagem';src:url(__BRICM__) format('truetype');font-weight:500;}
+:root{--cream:#F4ECD8;--cream2:#EBE0C6;--navy:#17264D;--gold:#C9A233;}
+*{margin:0;padding:0;box-sizing:border-box;}
+.slide{position:relative;width:1080px;height:1440px;overflow:hidden;
+  background:radial-gradient(120% 80% at 50% 0%,#FBF5E6,var(--cream) 55%,var(--cream2));}
+.grain{position:absolute;inset:0;opacity:.5;mix-blend-mode:multiply;pointer-events:none;
+  background-image:radial-gradient(rgba(23,38,77,.05) 1px,transparent 1px);background-size:6px 6px;}
+.kicker{position:absolute;top:70px;left:80px;font-family:'__BODYB__';font-weight:700;
+  font-size:26px;letter-spacing:5px;text-transform:uppercase;color:var(--gold);}
+.head{position:absolute;top:118px;left:76px;font-family:'Anton';text-transform:uppercase;
+  line-height:.9;letter-spacing:0px;}
+.head .n{display:block;color:var(--navy);font-size:132px;}
+.head .g{display:block;color:var(--gold);font-size:190px;
+  -webkit-text-stroke:3px var(--navy);paint-order:stroke fill;
+  text-shadow:2px 2px 0 var(--navy),4px 4px 0 var(--navy),6px 6px 0 var(--navy),8px 8px 0 var(--navy),10px 10px 0 var(--navy);}
+.list{position:absolute;top:560px;left:80px;right:80px;display:flex;flex-direction:column;gap:44px;}
+.item{display:flex;align-items:flex-start;gap:30px;}
+.num{flex:0 0 auto;width:86px;height:86px;border-radius:50%;background:var(--gold);
+  border:4px solid var(--navy);display:flex;align-items:center;justify-content:center;
+  font-family:'Anton';font-size:52px;color:var(--navy);box-shadow:4px 4px 0 rgba(23,38,77,.25);}
+.txt{font-family:'__BODYB__';font-weight:700;color:var(--navy);font-size:52px;line-height:1.08;
+  padding-top:4px;}
+.txt b{color:var(--gold);-webkit-text-stroke:1px var(--navy);}
+.foot{position:absolute;bottom:56px;left:80px;right:80px;display:flex;align-items:center;
+  justify-content:space-between;font-family:'__BODYB__';font-weight:700;color:var(--navy);font-size:30px;}
+.foot .dots{display:flex;gap:10px;}.foot .dots i{width:14px;height:14px;border-radius:50%;
+  background:rgba(23,38,77,.25);}.foot .dots i.on{background:var(--gold);width:38px;border-radius:8px;}
+.save{color:var(--gold);letter-spacing:2px;text-transform:uppercase;}
+.flag{position:absolute;top:150px;right:90px;font-size:120px;transform:rotate(8deg);}
+</style></head><body>
+<div class="slide">
+  <div class="grain"></div>
+  <div class="kicker">Consultant Red Flags</div>
+  <div class="flag">🚩</div>
+  <div class="head"><span class="n">FIRST 3</span><span class="g">RED FLAGS</span></div>
+  <div class="list">
+    <div class="item"><div class="num">1</div><div class="txt">Pushes the <b>same</b> country or university on everyone</div></div>
+    <div class="item"><div class="num">2</div><div class="txt">Promises a <b>"100% guaranteed"</b> visa</div></div>
+    <div class="item"><div class="num">3</div><div class="txt">Won't explain what you're <b>actually paying</b> for</div></div>
+  </div>
+  <div class="foot">
+    <span>studyprime.pk</span>
+    <span class="dots"><i class="on"></i><i></i><i></i><i></i></span>
+    <span class="save">Save ↓</span>
+  </div>
+</div>
+</body></html>
