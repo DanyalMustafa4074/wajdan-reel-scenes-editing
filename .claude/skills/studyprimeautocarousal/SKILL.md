@@ -1,5 +1,5 @@
 ---
-name: studyprime-carousel
+name: studyprimeautocarousal
 description: >-
   Create branded Instagram/LinkedIn carousels for Study Prime (studyprime.pk), the study-abroad
   advisory brand. Use this whenever the user wants a Study Prime carousel, slide post, or multi-slide
