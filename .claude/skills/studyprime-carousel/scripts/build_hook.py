@@ -34,6 +34,10 @@ def main():
     out = pathlib.Path(sys.argv[2]); out.mkdir(parents=True, exist_ok=True)
     anton = font_uri("Anton.ttf")
     doodles = spec.get("doodles", "")
+    # Headline sizes: default to the locked 158/268; shrink per-hook for longer words
+    # so the line never wraps or overflows the 1080px canvas.
+    nsize = str(spec.get("navy_size", 158))
+    gsize = str(spec.get("gold_size", 268))
     made = []
 
     if spec.get("cutout_image"):
@@ -41,6 +45,7 @@ def main():
         html = (html.replace("__ANTON__", anton)
                     .replace("__CUTOUT__", img_uri(spec["cutout_image"]))
                     .replace("__MOTIF__", spec.get("motif", spec["gold"].strip("?!.")))
+                    .replace("__NSIZE__", nsize).replace("__GSIZE__", gsize)
                     .replace("__NAVY__", spec["navy"]).replace("__GOLD__", spec["gold"])
                     .replace("<!-- __DOODLES__", doodles + "\n<!-- __DOODLES__"))
         (out / "slide1_A.html").write_text(html); made.append("A (cream)")
@@ -49,6 +54,7 @@ def main():
         html = (TPL / "office.html").read_text()
         html = (html.replace("__ANTON__", anton)
                     .replace("__BG__", img_uri(spec["scene_image"]))
+                    .replace("__NSIZE__", nsize).replace("__GSIZE__", gsize)
                     .replace("__NAVY__", spec["navy"]).replace("__GOLD__", spec["gold"])
                     .replace("<!-- __DOODLES__", doodles + "\n<!-- __DOODLES__"))
         (out / "slide1_B.html").write_text(html); made.append("B (scene)")
