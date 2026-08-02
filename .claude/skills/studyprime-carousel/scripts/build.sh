@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 # Build one StudyPrime carousel end to end from a spec JSON.
 # Usage: bash build.sh <spec.json> <work_dir>
-# Produces <work_dir>/slides/slide2..N.png and <work_dir>/StudyPrime-Carousel-<slug>.zip
+#   <spec.json>  must have hook_image (the chosen Slide-1 PNG) + instagram + linkedin.
+# Produces:
+#   <work_dir>/slides/slide2..N.png        rendered inner slides
+#   <work_dir>/StudyPrime-Carousel-<slug>.pdf   LinkedIn document (all slides)
+#   <work_dir>/StudyPrime-Carousel-<slug>.zip   Instagram PNGs + PDF + Captions.txt
 set -euo pipefail
 SPEC="$1"; WORK="${2:-./carousel-out}"
 HERE="$(cd "$(dirname "$0")" && pwd)"

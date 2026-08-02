@@ -8,9 +8,14 @@ One spec = one carousel. Feed it to `scripts/build.sh <spec.json> <workdir>`.
 | `slug` | yes | kebab-case id → zip name `StudyPrime-Carousel-<slug>.zip` |
 | `kicker` | yes | small gold topic label shown on every inner slide (UPPERCASE) |
 | `total_slides` | no | total incl. hook (default = inner slides + 1). Drives the progress dots. |
-| `hook_image` | no | path to the user's Slide 1 PNG. If omitted, the zip starts at slide2. |
+| `hook_image` | yes | path to the **chosen** Slide 1 PNG (variation A or B — see `slide1-recipe.md`). |
 | `slides` | yes | array of inner slides (usually n = 2,3,4,5) |
-| `linkedin` | yes | the ready-to-post LinkedIn caption (string) |
+| `instagram` | yes | ready-to-post Instagram caption (string) — link in bio |
+| `linkedin` | yes | ready-to-post LinkedIn caption (string) — link in first comment |
+
+The build produces `StudyPrime-Carousel-<slug>.zip` containing `Instagram/slide1..N.png` (separate
+images to post), `StudyPrime-Carousel-<slug>.pdf` (all slides → LinkedIn document upload), and
+`Captions.txt` (both captions). Caption rules live in `content-formula.md`.
 
 ## Slide object
 - `n` (int) — slide number (2–5). Sets which progress dot is active and the output filename.
@@ -27,7 +32,7 @@ One spec = one carousel. Feed it to `scripts/build.sh <spec.json> <workdir>`.
 {
   "slug": "wrong-order",
   "kicker": "COURSE › COUNTRY › UNIVERSITY",
-  "hook_image": "hooks/wrong-order.png",
+  "hook_image": "workdir/hook/slide1_A.png",
   "slides": [
     {"n":2,"head":["MOST DO IT","BACKWARDS"],"type":"stack",
      "lines":[["l","They pick the **country** first, then a uni, then any course that fits."],
@@ -44,7 +49,8 @@ One spec = one carousel. Feed it to `scripts/build.sh <spec.json> <workdir>`.
              ["↗","Share with a student rushing it"],
              ["💬","Want the order **mapped for you?**"]]}
   ],
-  "linkedin": "Most students pick their degree in the wrong order...\n\n#studyabroad #studyprime"
+  "instagram": "Are you picking your degree in the wrong order?\n\nMost students lock the country first, then force a course to fit.\nThat's how you end up with a degree that leads nowhere.\nPick the course first — everything else follows.\n\nSave this before you apply. Share it with a friend rushing it.\n💬 Want the order mapped for you? Free 1-1 — link in bio.\n\n#studyabroad #internationalstudents #studyprime",
+  "linkedin": "Most students pick their degree in the wrong order.\n\nThey choose the country first, then a university, then whatever course fits.\nThe right order is the opposite:\n1) Course — matches your goal\n2) Country — allows that career + a way to stay\n3) University — the best one for that course\n\n📌 Save this before you apply anywhere.\n♻️ Repost to help a student rushing it.\n💬 Want the order mapped for you? Book a free 1-1 — link in comments.\n\n#studyabroad #internationalstudents #studyprime"
 }
 ```
 See `assets/example-spec.json` for a full one.

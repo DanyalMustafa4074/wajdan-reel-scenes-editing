@@ -1,0 +1,44 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+/* SLIDE 1 — VARIATION A "clean cream": Ahsan cut out and placed on a cream tiled-motif
+   background. Placeholders (filled by scripts/build_hook.py):
+     __ANTON__   base64 Anton font
+     __CUTOUT__  base64 PNG of Ahsan with the background removed
+     __MOTIF__   the faint repeated pop-word tiled behind (e.g. LATE, LYING, WRONG)
+     __NAVY__    top headline line (small navy)
+     __GOLD__    bottom headline line (big gold 3D pop) */
+@font-face{font-family:'Anton';src:url(__ANTON__) format('truetype');}
+:root{--cream:#F4ECD8;--cream2:#EBE0C6;--navy:#17264D;--gold:#C9A233;}
+*{margin:0;padding:0;box-sizing:border-box;}
+.slide{position:relative;width:1080px;height:1440px;overflow:hidden;
+ background:radial-gradient(120% 85% at 50% 0%,#FBF5E6,var(--cream) 55%,var(--cream2));}
+.grain{position:absolute;inset:0;opacity:.55;mix-blend-mode:multiply;pointer-events:none;
+ background-image:radial-gradient(rgba(23,38,77,.05) 1px,transparent 1px);background-size:6px 6px;}
+.tile{position:absolute;inset:-8%;z-index:1;}
+.tile svg{width:100%;height:100%;}
+.subject{position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);height:980px;z-index:3;
+ filter:drop-shadow(0 6px 0 #fff) drop-shadow(0 -6px 0 #fff) drop-shadow(6px 0 0 #fff)
+ drop-shadow(-6px 0 0 #fff) drop-shadow(5px 5px 0 #fff) drop-shadow(-5px 5px 0 #fff)
+ drop-shadow(5px -5px 0 #fff) drop-shadow(-5px -5px 0 #fff) drop-shadow(0 14px 26px rgba(0,0,0,.28));}
+.head{position:absolute;top:48px;left:0;right:0;z-index:5;text-align:center;font-family:'Anton';
+ text-transform:uppercase;line-height:.84;}
+.head .n{display:block;color:var(--navy);font-size:158px;letter-spacing:1px;}
+.head .g{display:block;color:var(--gold);font-size:268px;letter-spacing:1px;
+ -webkit-text-stroke:5px var(--navy);paint-order:stroke fill;
+ text-shadow:4px 4px 0 var(--navy),8px 8px 0 var(--navy),12px 12px 0 var(--navy),16px 16px 0 var(--navy);}
+.dood{position:absolute;z-index:4;}
+</style></head><body>
+<div class="slide">
+ <div class="grain"></div>
+ <div class="tile"><svg viewBox="0 0 1080 1440" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs><pattern id="wm" width="600" height="320" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)">
+   <text x="0" y="150" font-family="Anton" font-size="150" fill="#17264D" fill-opacity="0.05">__MOTIF__</text>
+   <text x="300" y="320" font-family="Anton" font-size="150" fill="#17264D" fill-opacity="0.05">__MOTIF__</text>
+  </pattern></defs><rect width="1080" height="1440" fill="url(#wm)"/></svg></div>
+
+ <div class="head"><span class="n">__NAVY__</span><span class="g">__GOLD__</span></div>
+
+ <!-- __DOODLES__  (per-topic gold/navy line-art SVGs, class="dood", positioned around the headline) -->
+
+ <img class="subject" src="__CUTOUT__">
+</div>
+</body></html>

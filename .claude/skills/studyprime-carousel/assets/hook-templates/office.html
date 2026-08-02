@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+/* SLIDE 1 — VARIATION B "real scene": Ahsan photographed in a believable Study-Prime
+   scenario (consultancy office, campus, airport) used as a FULL-BLEED background, with a
+   cream top scrim so the headline stays crisp. Placeholders (filled by build_hook.py):
+     __ANTON__  base64 Anton font
+     __BG__     base64 PNG of the full Freepik scene (Ahsan in the scenario) — NOT cut out
+     __NAVY__   top headline line
+     __GOLD__   bottom headline line */
+@font-face{font-family:'Anton';src:url(__ANTON__) format('truetype');}
+:root{--cream:#F4ECD8;--navy:#17264D;--gold:#C9A233;}
+*{margin:0;padding:0;box-sizing:border-box;}
+.slide{position:relative;width:1080px;height:1440px;overflow:hidden;background:#222;}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;}
+.scrim{position:absolute;left:0;right:0;top:0;height:62%;z-index:2;
+ background:linear-gradient(to bottom,rgba(244,236,216,.82),rgba(244,236,216,.30) 45%,rgba(244,236,216,0) 100%);}
+.scrimb{position:absolute;left:0;right:0;bottom:0;height:16%;z-index:2;
+ background:linear-gradient(to top,rgba(23,38,77,.35),transparent);}
+.head{position:absolute;top:48px;left:0;right:0;z-index:5;text-align:center;font-family:'Anton';
+ text-transform:uppercase;line-height:.84;}
+.head .n{display:block;color:var(--navy);font-size:158px;letter-spacing:1px;}
+.head .g{display:block;color:var(--gold);font-size:268px;letter-spacing:1px;
+ -webkit-text-stroke:5px var(--navy);paint-order:stroke fill;
+ text-shadow:4px 4px 0 var(--navy),8px 8px 0 var(--navy),12px 12px 0 var(--navy),16px 16px 0 var(--navy);}
+.dood{position:absolute;z-index:4;}
+</style></head><body>
+<div class="slide">
+ <img class="bg" src="__BG__">
+ <div class="scrim"></div><div class="scrimb"></div>
+ <div class="head"><span class="n">__NAVY__</span><span class="g">__GOLD__</span></div>
+
+ <!-- __DOODLES__  (same per-topic SVG set as variation A, positioned over the scene) -->
+</div>
+</body></html>

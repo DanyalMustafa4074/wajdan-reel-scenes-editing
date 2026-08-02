@@ -19,12 +19,15 @@ This brand's credibility IS its product. So:
 - Prefer **evergreen advice** topics (mindset, planning, consultant-vetting, application mistakes)
   over fact-heavy ones when speed matters — they carry no factual risk.
 
-## Hook formula (Slide 1 — the user builds the image)
-- 2–4 words, UPPERCASE, split navy + ONE gold pop-word.
-- Create a curiosity gap or name a mistake. Contrarian beats generic.
-- Always give the user **exactly 3 options** and let them pick.
-- Examples that worked: `WRONG QUESTION.` · `WHICH COUNTRY?` · `FORGET THE RANKING` ·
-  `WRONG ORDER` · `YOUR AGENT IS LYING` · `BEFORE YOU PAY, ASK THIS` · `THIS GETS YOU REJECTED`.
+## Hook formula (Slide 1 — this skill generates the image)
+- **3–6 words**, UPPERCASE, split navy line + ONE gold pop-word/line.
+- **Must be understood at a glance** — the reader should instantly get the gist. A hook can be a
+  curiosity gap, but it still has to *mean* something on first read.
+  - ✅ `YOUR AGENT IS LYING` · `THIS GETS YOU REJECTED` · `ARE YOU TOO LATE?` ·
+    `BEFORE YOU PAY, ASK THIS` · `PICKING THE WRONG COUNTRY`
+  - ❌ Too cryptic / no meaning alone: `WRONG ORDER` · `WRONG QUESTION` · `WHICH COUNTRY?`
+- Contrarian, negative, or a direct question beats generic. Name the mistake or the stakes.
+- Always give the user **exactly 3 options** and let them pick before any image is generated.
 
 ## Slide structure (≤5 slides)
 - **S1** hook (image).  **S2** set up the problem / reframe.  **S3–S4** the value (list or steps).
@@ -38,11 +41,36 @@ Save + Share + book a **1-1 consultation**. On Instagram: "link in bio". On Link
 comments" (LinkedIn throttles posts with links in the body). Three rows: 🔖 save / ↗ share / 💬
 consult, plus the navy "1-1 CONSULTATION — LINK IN BIO" bar.
 
-## LinkedIn caption template (goes in the zip as LinkedIn-Post.txt)
-```
-<one scroll-stopping first line — the hook as a full sentence>
+## Captions (both go in the zip as `Captions.txt`)
+Write **two** captions per carousel — one Instagram, one LinkedIn. Shared rules:
+- **5–10 lines**, to the point. No fluff, no walls of text.
+- **First line = the hook** and it must grab: make it a **question**, a **negative/warning**, or a
+  **blunt fact**. (e.g. "Not every study-abroad agent is on your side." / "Are you already too late
+  to apply?" / "Most students pick their degree in the wrong order.")
+- **A little story-telling** in the middle so it keeps people reading — a mini before/after, a common
+  mistake and its cost, "I keep seeing students who…". Then land the point.
+- End with a soft CTA to save/share + book a free 1-1 consultation.
 
-<the value written out in short lines / a numbered list, so the post delivers even without swiping>
+### Instagram caption
+Link goes in **bio**. Slightly more casual, can use a couple of emojis. Hashtags at the end.
+```
+<hook line — question / negative / fact>
+
+<2–4 short lines: the story + the value, one thought per line>
+
+Save this for when you need it. Share it with someone applying.
+💬 Want an honest plan? Book a free 1-1 — link in bio.
+
+#studyabroad #internationalstudents #studyprime <+ 2-3 topic tags>
+```
+
+### LinkedIn caption
+Link goes in the **first comment**, never the body (LinkedIn throttles posts with outbound links).
+Slightly more professional tone; the value should be spelled out so it delivers without swiping.
+```
+<hook line — question / negative / fact>
+
+<the story + the value in short lines or a tight numbered list>
 
 📌 Save this before <moment of need>.
 ♻️ Repost to help a student <situation>.

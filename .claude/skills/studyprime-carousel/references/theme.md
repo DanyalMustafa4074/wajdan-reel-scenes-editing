@@ -2,7 +2,7 @@
 
 ## Canvas
 - 1080 × 1440 px (3:4), rendered at deviceScaleFactor 2 → 2160 × 2880 output.
-- Hook slides (Slide 1) are also 3:4 (user builds at ~896×1200 or larger — any 3:4 posts fine).
+- Slide 1 (the hook) is the same 1080×1440 @2x, built by this skill (see `slide1-recipe.md`).
 
 ## Colors
 - Navy (primary text, 3D extrude, dark bars): `#17264D`
