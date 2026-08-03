@@ -1,0 +1,84 @@
+Wajdan Services — Reel #12 "The 3am Lead" — VOICEOVER ONLY (Final)
+(AI voice: calm, warm, plain-spoken, confident. Slow down on the bold beats. ~200 words ≈ 80s.)
+
+Someone filled out your form at three in the morning on a Saturday.
+
+Nobody does that out of curiosity.
+
+That's a person who couldn't sleep because of the problem you fix.
+
+Best lead you'll get all week.
+
+Watch what happens to them.
+
+Nothing. For two days.
+
+Saturday morning, they check their email. Nothing from you.
+
+By Sunday, the worry has passed. It's just a normal weekend again.
+
+Monday, quarter past nine, your staff finally calls.
+
+They don't answer. They're at work.
+
+Your team writes them off as a bad lead.
+
+Now here's the same weekend — with a system behind the form.
+
+Three a.m. They hit submit. Eighteen seconds later, a text arrives. Confirmed. Someone's got this.
+
+Two minutes later, a short video lands — while they're still awake, still worried.
+
+They book their own slot. At three in the morning. Because the calendar was open.
+
+Then the reminders go out. A day before. Two hours before. Fifteen minutes before.
+
+Monday, they show up ready to talk. And nobody on your team lifted a finger.
+
+Your staff didn't work the weekend.
+
+The system did.
+
+That's the difference between a client and a lead marked bad on Monday.
+
+And it doesn't cost more ad spend. It's what happens in the eighteen seconds after the form.
+
+--- CTA:
+Click the link in my bio and book a free one-to-one strategy call — and I'll show you exactly where
+yours is leaking.
+
+
+=== PAUSE / DELIVERY CUES ===
+- 0.5s pause after: "...all week." / "Nothing. For two days." / "...with a system behind the form." /
+  "The system did." / "...after the form."
+- "Nothing. For two days." → flat and final, silence either side. The flatter, the harder it lands.
+- Weekend one → even, unhurried, gentle. You're describing a real person, not scoring a point. No
+  sarcasm anywhere.
+- "Now here's the same weekend — with a system behind the form." → the pivot. Lean in, slightly
+  warmer. This is the promise beat.
+- Weekend two → same calm pace as weekend one, so the two timelines feel like one story told twice.
+  Do NOT speed up or brighten here — that instinct turns it into an ad.
+- "Your staff didn't work the weekend. / The system did." → two beats, full stop between. "The system
+  did" is the line the reel exists for.
+- CTA → confident and inviting, not pushy. Land on "leaking."
+- Keep pace calm (~150 wpm).
+
+=== STRUCTURE MAP (for editor) ===
+HOOK ............. 0:00-0:10 (3am form fill = real motivation)
+THE GAP .......... 0:10-0:16 (two days of nothing)
+WEEKEND ONE ...... 0:16-0:34 (Sat → Mon 9:15, written off)
+PIVOT ............ 0:34-0:38 ("the same weekend, with a system")
+WEEKEND TWO ...... 0:38-1:04 (18s → 2m → self-book → reminders → showed up)
+THE TRUTH ........ 1:04-1:12 (the system worked the weekend)
+CTA .............. 1:12-1:20 (book the strategy call)
+
+=== ON-SCREEN TEXT (editor overlays the timestamps — keep the SAME corner + font both timelines) ===
+Weekend one:  SAT 03:00 → SAT 09:00 → SUN 15:00 → MON 09:15 → card: MARKED: BAD LEAD
+PIVOT: reset the clock HARD back to SAT 03:00 — the most important cut in the reel.
+Weekend two:  SAT 03:00 +18 SEC → +2 MIN → BOOKED 03:11 → 24H / 2H / 15M → MON — SHOWED UP
+End card: FREE 1-1 STRATEGY CALL — LINK IN BIO
+
+=== NOTE ===
+- Single CTA (book a free 1-1 strategy call). No second/organic-vs-ad split for this reel.
+- Timestamps are burned in by the editor, not drawn by the image model (digits garble). Same corner,
+  same font, both timelines — that repetition IS the visual argument.
