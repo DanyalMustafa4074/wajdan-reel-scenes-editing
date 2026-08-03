@@ -50,10 +50,10 @@ via editor. Style-approval gate: new Sara sheet + one test scene first.
 - [x] Edit sheet
 - [x] Google AI Studio VO
 - [x] README
-- [ ] New character sheet approved (Sara)
-- [ ] Test image approved
-- [ ] All 16 scenes generated + saved
-- [ ] Committed + pushed to `claude/wajdan-reel-12-3am-lead`
+- [x] New character sheet approved (Sara)
+- [x] Test image approved (SC-01, full-bleed 9:16)
+- [x] All 16 scenes generated + saved (vertical 9:16, all text clean, characters consistent)
+- [x] Committed + pushed to `claude/wajdan-reel-12-3am-lead`
 
 ## Open questions
 1. Vertical 9:16 confirmed as the new default for Instagram reels?
