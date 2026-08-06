@@ -24,6 +24,12 @@ Carousels are **5 slides**: Slide 1 = a face-led **hook**, Slides 2–4 = value,
 
 Run these steps **in order** and **wait for the user** at each ⏸️. Do not run ahead.
 
+> **Token discipline (important).** Rendered slides are huge images — do **not** Read them back into
+> context to "check" them. Generate → send the PNG straight to the user with SendUserFile and let
+> them approve. Skip the preview strip, montages, and self-review unless the user asks. Keep Freepik
+> regenerations minimal (tighten the prompt up front). Batch independent tool calls; don't re-read
+> files you've already seen. The user is the visual approver — your job is to build and hand off.
+
 1. **Ideas.** Propose a short list of carousel concepts in Study Prime's honest, plan-first, anti-hype
    voice (draw from the idea bank in `references/content-formula.md`). ⏸️ **The user picks one idea.**
 
