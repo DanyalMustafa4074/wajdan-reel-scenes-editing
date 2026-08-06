@@ -46,9 +46,9 @@ discipline. Style-approval gate: one test scene first (cast reused, no new sheet
 - [x] Edit sheet
 - [x] Google AI Studio VO
 - [x] README
-- [ ] Test image approved
-- [ ] All 16 scenes generated + saved
-- [ ] Committed + pushed to `claude/reel-16-statement`
+- [x] Test image approved
+- [x] All 16 scenes generated + saved (9:16 vertical, all clean)
+- [x] Committed + pushed to `claude/reel-16-statement`
 
 ## Open questions
 1. CTA keyword: "STATEMENT" (used) — keep?
