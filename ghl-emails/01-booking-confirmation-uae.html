@@ -35,7 +35,6 @@
     .body-text { font-size:16px !important; line-height:1.65 !important; }
     .accent-text { font-size:16px !important; line-height:1.55 !important; }
     .logo { width:110px !important; height:auto !important; }
-    .gif { width:100% !important; max-width:100% !important; height:auto !important; }
     .details-pad { padding:4px 18px !important; }
     .row-cell { padding:14px 0 !important; }
     .row-lbl { display:block !important; width:100% !important; text-align:left !important; padding:0 0 6px 0 !important; font-size:11px !important; }
@@ -62,8 +61,7 @@
     .dm-footer-bg     { background-color:#14110E !important; }
     .dm-footer-text   { color:#6B6358 !important; }
     .dm-link          { color:#FFA94D !important; }
-    .logo-light       { display:none !important; max-height:0 !important; max-width:0 !important; overflow:hidden !important; }
-    .logo-dark        { display:block !important; max-height:none !important; max-width:none !important; width:130px !important; height:auto !important; overflow:visible !important; }
+    .logo-chip        { background-color:#F0EAE2 !important; padding:8px 12px !important; border-radius:8px !important; }
   }
 
   /* ─── Dark Mode :: Gmail (web + mobile) ─── */
@@ -83,8 +81,7 @@
   [data-ogsc] .dm-footer-bg     { background-color:#14110E !important; }
   [data-ogsc] .dm-footer-text   { color:#6B6358 !important; }
   [data-ogsc] .dm-link          { color:#FFA94D !important; }
-  [data-ogsc] .logo-light       { display:none !important; max-height:0 !important; max-width:0 !important; overflow:hidden !important; }
-  [data-ogsc] .logo-dark        { display:block !important; max-height:none !important; max-width:none !important; width:130px !important; height:auto !important; overflow:visible !important; }
+  [data-ogsc] .logo-chip        { background-color:#F0EAE2 !important; padding:8px 12px !important; border-radius:8px !important; }
 
   /* ─── Outlook.com dark mode fallback ─── */
   [data-ogsb] .dm-card { background-color:#1A1714 !important; }
@@ -112,10 +109,9 @@
     <!-- ═══════════════ HEADER / LOGO ═══════════════ -->
     <tr>
     <td class="px-32 py-head dm-header-border" style="padding:24px 32px;border-bottom:1px solid #F4D9B3;">
-      <img src="https://assets.cdn.filesafe.space/kdcL3eKFFrDd9ZsfKvG5/media/69ef2ace717d5dd4e154ec7e.png" width="130" alt="Wajdan" class="logo logo-light" style="display:block;width:130px;max-width:130px;height:auto;border:0;outline:none;">
-      <!--[if !mso]><!-->
-      <img src="REPLACE_WITH_WHITE_LOGO_URL" width="130" alt="Wajdan" class="logo logo-dark" style="display:none;width:0;max-width:0;max-height:0;height:auto;border:0;outline:none;overflow:hidden;mso-hide:all;">
-      <!--<![endif]-->
+      <span class="logo-chip" style="display:inline-block;">
+        <img src="https://assets.cdn.filesafe.space/kdcL3eKFFrDd9ZsfKvG5/media/69ef2ace717d5dd4e154ec7e.png" width="130" alt="Wajdan" class="logo" style="display:block;width:130px;max-width:130px;height:auto;border:0;outline:none;">
+      </span>
     </td>
     </tr>
 
@@ -123,16 +119,7 @@
     <tr>
     <td class="px-32 py-body" style="padding:30px 32px 6px;">
       <p class="body-text dm-text" style="margin:0 0 18px 0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;line-height:1.7;color:#1E1E1E;font-weight:600;">Hey {{contact.first_name}},</p>
-      <p class="body-text dm-text-soft" style="margin:0 0 22px 0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;line-height:1.7;color:#333333;font-weight:400;">Habibi, you're locked in. You're on the calendar.</p>
-    </td>
-    </tr>
-
-    <!-- ═══════════════ MEME GIF ═══════════════
-         Upload the GIF to GHL Media Storage and paste its URL below.
-         Keep it under ~1.5 MB and about 560px wide. -->
-    <tr>
-    <td class="px-32" style="padding:0 32px 24px;">
-      <img src="REPLACE_WITH_GIF_URL" width="496" alt="Let's go" class="gif" style="display:block;width:100%;max-width:496px;height:auto;border:0;outline:none;border-radius:8px;">
+      <p class="body-text dm-text-soft" style="margin:0 0 20px 0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;line-height:1.7;color:#333333;font-weight:400;">Habibi, you're locked in. You're on the calendar.</p>
     </td>
     </tr>
 
@@ -227,7 +214,8 @@
 
       <p class="body-text dm-text-soft" style="margin:0 0 18px 0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;line-height:1.7;color:#333333;font-weight:400;">On the call we find where qualified clients slip through. No pitch. Not a fit? We'll say so.</p>
 
-      <p class="body-text dm-text-soft" style="margin:0 0 26px 0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;line-height:1.7;color:#333333;font-weight:400;">I'll resend the join link 15 minutes before. Yalla, see you there.</p>
+      <p class="body-text dm-text-soft" style="margin:0 0 18px 0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;line-height:1.7;color:#333333;font-weight:400;">I'll send the join link again 15 minutes before we start, so don't worry about losing it in your inbox (or your 400 unread WhatsApps).</p>
+      <p class="body-text dm-text-soft" style="margin:0 0 26px 0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;line-height:1.7;color:#333333;font-weight:400;">One ask: be on time. Sheikh Zayed Road traffic is a valid excuse for most things. Joining a Google Meet isn't one of them. Yalla, see you there.</p>
     </td>
     </tr>
 
